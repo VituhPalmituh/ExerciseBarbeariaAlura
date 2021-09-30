@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>Produtos</title>
 </head>
 
@@ -21,33 +25,35 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Produtos</a></li>
-                    <li><a href="contacts.html">Contato</a></li>
+                    <li><a href="contact.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <ul class="productsList">
-            <li>
-                <h2>Cabelo</h2>
-                <img src="./img/cabelo.jpg" alt="Cabelo">
-                <p class="productDescription">Na tesoura ou máquina, como o cliente preferir</p>
-                <p class="productPrice">R$25,00</p>
-            </li>
-            <li>
-                <h2>Barba</h2>
-                <img src="./img/barba.jpg" alt="Barba">
-                <p class="productDescription">Corte e desenho profissional de barba</p>
-                <p class="productPrice">R$18,00</p>
-            </li>
-            <li>
-                <h2>Cabelo + Barba</h2>
-                <img src="./img/cabelo+barba.jpg" alt="Cabelo + Barba">
-                <p class="productDescription">Pacote completo de cabelo e barba</p>
-                <p class="productPrice">R$35,00</p>
-            </li>
-        </ul>
+        <div class="listDiv">
+            <ul class="productsList">
+                <li>
+                    <h2>Cabelo</h2>
+                    <img src="./img/cabelo.jpg" alt="Cabelo" class="listImg">
+                    <p class="productDescription">Na tesoura ou máquina, como o cliente preferir</p>
+                    <p class="productPrice">R$25,00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="./img/barba.jpg" alt="Barba" class="listImg">
+                    <p class="productDescription">Corte e desenho de barba</p>
+                    <p class="productPrice">R$18,00</p>
+                </li>
+                <li>
+                    <h2>Cabelo + Barba</h2>
+                    <img src="./img/cabelo+barba.jpg" alt="Cabelo + Barba" class="listImg">
+                    <p class="productDescription">Pacote completo de cabelo e barba</p>
+                    <p class="productPrice">R$35,00</p>
+                </li>
+            </ul>
+        </div>
     </main>
 
     <footer>
